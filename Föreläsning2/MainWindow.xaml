@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="86,106,0,0" Height="62" Click="button_Click"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="86,70,0,0"/>
+        <Button x:Name="btnCheck" Content="Button" HorizontalAlignment="Left" Margin="388,140,0,0" VerticalAlignment="Top" Width="75" Click="btnKnapp_Click"/>
+        <Button x:Name="btnKnapp" Content="En knapp" HorizontalAlignment="Left" Margin="92,243,0,0" VerticalAlignment="Top" Width="75" Click="btnWeekday_Click" MouseLeave="btnKnapp_MouseLeave"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="86,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.26,-0.214" MouseLeave="label_MouseLeave"/>
+
     </Grid>
 </Window>
