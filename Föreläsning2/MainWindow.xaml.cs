@@ -60,7 +60,7 @@ namespace Föreläsning2
         {
             // variablers räckvidd
             firstName = "Erik";
-            string lastName = "Äberg";
+            string lastName = "Öberg";
             //typkonvertering
 
             // gör om från en datatyp till en annan
@@ -76,8 +76,9 @@ namespace Föreläsning2
 
         private void btnKnapp_Click(object sender, RoutedEventArgs e)
         {
-            string content = (sender as Button).Content.ToString();
-            MessageBox.Show(content);
+            //string content = (sender as Button).Content.ToString();
+
+            //MessageBox.Show(content);
         }
 
         private void btnKnapp_MouseLeave(object sender, MouseEventArgs e)
