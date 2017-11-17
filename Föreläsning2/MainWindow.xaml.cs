@@ -76,9 +76,20 @@ namespace Föreläsning2
 
         private void btnKnapp_Click(object sender, RoutedEventArgs e)
         {
-            //string content = (sender as Button).Content.ToString();
+            // en variabel av typen int = heltal
+            int tal1, tal2;
+            tal1 = 8;
+            tal2 = 7;
+            // en annan variabel av typen double = flyttal
+            double flyttal = 2.5;
 
-            //MessageBox.Show(content);
+            double svar;
+
+            svar = tal1 / (double)tal2;
+
+
+            tal1 = (int)svar;
+
         }
 
         private void btnKnapp_MouseLeave(object sender, MouseEventArgs e)

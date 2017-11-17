@@ -60,25 +60,33 @@ namespace Yatzy
             // ? operator
 
             // maximala poängsummman i Yatzy är 106
-            if (sum >= 106)
+            //if (sum >= 106)
+            //{
+            //    MessageBox.Show("Den där poängsumman är orimlig");
+
+            //    if(sum != 1000 ) // kontrollerar osasdfasdfsa df 
+            //    {
+            //        MessageBox.Show("Vilken fuskare du är");
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Du är hyfsat ärlig i alla fall");
+
+            //    }
+            //}
+            //else if (sum >= 63)
+            //    bonus = 50;
+
+            //else
+            //    bonus = 0;
+
+
+            int testsumma = fives % 5;
+
+            if (fives % 5 ==0 && fives <= 25)
             {
-                MessageBox.Show("Den där poängsumman är orimlig");
-
-                if(sum != 1000 ) // kontrollerar osasdfasdfsa df 
-                {
-                    MessageBox.Show("Vilken fuskare du är");
-                }
-                else
-                {
-                    MessageBox.Show("Du är hyfsat ärlig i alla fall");
-
-                }
+                MessageBox.Show("detta är rimligt");
             }
-            else if (sum >= 63)
-                bonus = 50;
-           
-            else
-                bonus = 0;
 
             total = sum + bonus;
             txtBonus.Text = bonus.ToString();
