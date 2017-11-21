@@ -76,9 +76,17 @@ namespace Föreläsning2
 
         private void btnKnapp_Click(object sender, RoutedEventArgs e)
         {
-            //string content = (sender as Button).Content.ToString();
-
-            //MessageBox.Show(content);
+            string mittNamn = "Erik";
+            char mittTecken;
+            int length = mittNamn.Length;
+            char[] mittNamnSomTecken = new char[length];
+            for (int i = 0; i < length; i++)
+            {
+                MessageBox.Show(mittNamn[i].ToString());
+            }
+            mittTecken = 'P';
+            //mittNamn[0] = 'P';
+          
         }
 
         private void btnKnapp_MouseLeave(object sender, MouseEventArgs e)

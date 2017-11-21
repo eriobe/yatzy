@@ -24,9 +24,19 @@
         <TextBox x:Name="txtSum" HorizontalAlignment="Left" Height="23" Margin="209,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
         <Label x:Name="label_Copy6" Content="Summa" HorizontalAlignment="Left" Margin="209,142,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnOk" Content="Ok" HorizontalAlignment="Left" Margin="359,234,0,0" VerticalAlignment="Top" Width="75" Click="btnOk_Click"/>
-        <Button x:Name="btnTest" Content="Testknapp" HorizontalAlignment="Left" Margin="383,54,0,0" VerticalAlignment="Top" Width="75" Click="btnTest_Click"/>
         <TextBox x:Name="txtTotal" HorizontalAlignment="Left" Height="23" Margin="286,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
         <Label x:Name="label_Copy8" Content="Total" HorizontalAlignment="Left" Margin="286,147,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textDiceOne" Text="X" HorizontalAlignment="Left" Margin="233,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="41" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="textDiceTwo"  Text="X" HorizontalAlignment="Left" Margin="274,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="41" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="textDiceThree" Text="X" HorizontalAlignment="Left" Margin="320,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="41" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="textDiceFour" Text="X" HorizontalAlignment="Left" Margin="359,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="41" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="textDiceFive"  Text="X" HorizontalAlignment="Left" Margin="400,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="41" FontSize="18" FontWeight="Bold"/>
+        <CheckBox x:Name="optSaveDiceOne" Content="" HorizontalAlignment="Left" Margin="233,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.358,0.063"/>
+        <CheckBox x:Name="optSaveDiceTwo" Content="" HorizontalAlignment="Left" Margin="274,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.358,0.063"/>
+        <CheckBox x:Name="optSaveDiceThree" Content="" HorizontalAlignment="Left" Margin="320,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.358,0.063"/>
+        <CheckBox x:Name="optSaveDiceFour" Content="" HorizontalAlignment="Left" Margin="359,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.358,0.063"/>
+        <CheckBox x:Name="optSaveDiceFive" Content="" HorizontalAlignment="Left" Margin="400,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.358,0.063"/>
+        <Label x:Name="label1" Content="Spara" HorizontalAlignment="Left" Margin="177,76,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
