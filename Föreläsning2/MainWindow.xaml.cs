@@ -86,7 +86,7 @@ namespace Föreläsning2
             double svar;
 
             svar = tal1 / (double)tal2;
-
+            svar = 8 / (double)7;
 
             tal1 = (int)svar;
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Föreläsning2", "Föreläs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatzy", "Yatzy\Yatzy.csproj", "{9C97B3FC-A289-4E29-AFA8-42CF8EF3AF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komponenter", "Komponenter\Komponenter.csproj", "{7CA4B712-75CF-4589-AA20-4DCF0DFB106D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C97B3FC-A289-4E29-AFA8-42CF8EF3AF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C97B3FC-A289-4E29-AFA8-42CF8EF3AF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C97B3FC-A289-4E29-AFA8-42CF8EF3AF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA4B712-75CF-4589-AA20-4DCF0DFB106D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA4B712-75CF-4589-AA20-4DCF0DFB106D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA4B712-75CF-4589-AA20-4DCF0DFB106D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA4B712-75CF-4589-AA20-4DCF0DFB106D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
