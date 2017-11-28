@@ -5,13 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Föreläsning2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="437" Width="662">
     <Grid>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="86,106,0,0" Height="62" Click="button_Click"/>
         <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="86,70,0,0"/>
         <Button x:Name="btnCheck" Content="Button" HorizontalAlignment="Left" Margin="388,140,0,0" VerticalAlignment="Top" Width="75" Click="btnKnapp_Click"/>
         <Button x:Name="btnKnapp" Content="En knapp" HorizontalAlignment="Left" Margin="92,243,0,0" VerticalAlignment="Top" Width="75" Click="btnWeekday_Click" MouseLeave="btnKnapp_MouseLeave"/>
         <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="86,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.26,-0.214" MouseLeave="label_MouseLeave"/>
+        <Button x:Name="btnBmi" Content="BMI" HorizontalAlignment="Left" Margin="388,39,0,0" VerticalAlignment="Top" Width="75" Click="btnBmi_Click"/>
+        <TextBlock x:Name="textMessage" HorizontalAlignment="Left" Margin="265,206,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="83" Width="156"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="265,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstPersons" HorizontalAlignment="Left" Height="158" Margin="445,216,0,0" VerticalAlignment="Top" Width="159"/>
+        <Button x:Name="button1" Content="Välj person" HorizontalAlignment="Left" Margin="320,352,0,0" VerticalAlignment="Top" Width="101" Click="button1_Click" Height="31"/>
+        <Button x:Name="button2" Content="Spara" HorizontalAlignment="Left" Margin="546,81,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Öppna" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="546,124,0,0" Click="button3_Click"/>
 
     </Grid>
 </Window>
